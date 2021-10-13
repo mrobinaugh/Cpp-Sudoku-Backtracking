@@ -83,15 +83,3 @@ int Solver::findNextValue(std::array<int,81> solvedBoard, int index){
     // Returns final value as 0 or temp value if a valid value was found
     return solvedBoard[index]; 
 };
-
-/* std::array<int,81> Solver::toOneDArray(int initBoard[9][9]){
-    std::array<int,81> initOneD;
-    int arrayIndex = 0;
-    for (int i = 0; i < 9; ++i){
-        for(int j = 0; j < 9; ++j){
-            initOneD[arrayIndex] = initBoard[i][j];
-            ++arrayIndex;
-        }
-    }
-    return initOneD;
-} */
