@@ -14,7 +14,6 @@ private:
 public:
     std::array<int,81> solveBoard(std::array<int,81>);
     int findNextValue(std::array<int,81>, int);
-   // std::array<int,81> toOneDArray(int[9][9]);
 
 };
 
